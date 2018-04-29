@@ -11,6 +11,8 @@ public class MainTestMap {
 
     public static void main(String[] args) {
 
+        System.out.println("Test program to use maps in Java8");
+
         numMapString.put("num1","100");
         numMapString.put("num2","200");
         numMapString.put("num3","300");
