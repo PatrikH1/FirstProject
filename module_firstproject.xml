@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_firstproject" default="compile.module.firstproject">
+  <dirname property="module.firstproject.basedir" file="${ant.file.module_firstproject}"/>
+  
+  <property name="module.jdk.home.firstproject" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.firstproject" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.firstproject" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.firstproject" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="firstproject.output.dir" value="${module.firstproject.basedir}/out/production/FirstProject"/>
+  <property name="firstproject.testoutput.dir" value="${module.firstproject.basedir}/out/test/FirstProject"/>
+  
+  <path id="firstproject.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="firstproject.module.production.classpath">
+    <path refid="${module.jdk.classpath.firstproject}"/>
+  </path>
+  
+  <path id="firstproject.runtime.production.module.classpath">
+    <pathelement location="${firstproject.output.dir}"/>
+  </path>
+  
+  <path id="firstproject.module.classpath">
+    <path refid="${module.jdk.classpath.firstproject}"/>
+    <pathelement location="${firstproject.output.dir}"/>
+  </path>
+  
+  <path id="firstproject.runtime.module.classpath">
+    <pathelement location="${firstproject.testoutput.dir}"/>
+    <pathelement location="${firstproject.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.firstproject">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.firstproject">
+    <patternset refid="excluded.from.module.firstproject"/>
+  </patternset>
+  
+  <path id="firstproject.module.sourcepath">
+    <dirset dir="${module.firstproject.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.firstproject" depends="compile.module.firstproject.production,compile.module.firstproject.tests" description="Compile module FirstProject"/>
+  
+  <target name="compile.module.firstproject.production" depends="register.custom.compilers" description="Compile module FirstProject; production classes">
+    <mkdir dir="${firstproject.output.dir}"/>
+    <javac2 destdir="${firstproject.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.firstproject}/javac">
+      <compilerarg line="${compiler.args.firstproject}"/>
+      <bootclasspath refid="firstproject.module.bootclasspath"/>
+      <classpath refid="firstproject.module.production.classpath"/>
+      <src refid="firstproject.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.firstproject"/>
+    </javac2>
+    
+    <copy todir="${firstproject.output.dir}">
+      <fileset dir="${module.firstproject.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.firstproject.tests" depends="register.custom.compilers,compile.module.firstproject.production" description="compile module FirstProject; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.firstproject" description="cleanup module">
+    <delete dir="${firstproject.output.dir}"/>
+    <delete dir="${firstproject.testoutput.dir}"/>
+  </target>
+</project>
