@@ -34,6 +34,9 @@ public class TimeoutThread implements Runnable {
             }
             return;
         }
+        else {
+            return;
+        }
 
     }
 
@@ -52,8 +55,5 @@ public class TimeoutThread implements Runnable {
         }
         return null;
     }
-
-
-
 
 }
