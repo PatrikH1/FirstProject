@@ -3,6 +3,7 @@ package patrik.test;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+// En kommentar.
 public class MainNumberClass {
 
 
