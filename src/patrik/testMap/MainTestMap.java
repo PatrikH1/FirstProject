@@ -17,6 +17,9 @@ public class MainTestMap {
         numMapString.put("num2","200");
         numMapString.put("num3","300");
 
+        System.out.println("Value of num1: " + numMapString.get("num1"));
+        System.out.println("All keys: " + numMapString.keySet());
+
         numMapLong = numMapString
                 .entrySet()
                 .stream()

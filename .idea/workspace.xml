@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383597bf-bcad-4bb0-962c-f3edc2e34ec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jonas/testhelloworld/HelloWorldJonas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patrik/testenum/EnumTwoVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patrik/testenum/TestEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/FirstProject_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jonas/guiFirst/MainDrawDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jonas/wrapper/testWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FirstProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patrik/testMap/MainTestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patrik/testMap/MainTestMap.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,50 +25,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/patrik/testTemplate</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1Qhrnvgx75xm8rwUqgEfnRoNoP8" />
+  <component name="ProjectId" id="1TDKAaYPq8E33y5oTTS7tANbgQk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
-    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="firstproject" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/patrik/test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/patrik/testTemplate" />
-    </key>
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="473" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,13 +53,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestEnum">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patrik.test.HelloWorld" />
+  <component name="RunManager" selected="Application.StartDrawDemo">
+    <configuration name="MainDrawDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jonas.guiFirst.MainDrawDemo" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patrik.test.*" />
+          <option name="PATTERN" value="jonas.guiFirst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldJonas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jonas.testhelloworld.HelloWorldJonas" />
+    <configuration name="StartDrawDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jonas.guiFirst.StartDrawDemo" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jonas.testhelloworld.*" />
+          <option name="PATTERN" value="jonas.guiFirst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patrik.threads.MainTestThread" />
+    <configuration name="testWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jonas.wrapper.testWrapper" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patrik.threads.*" />
+          <option name="PATTERN" value="jonas.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,46 +93,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patrik.testenum.TestEnum" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patrik.testenum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jonas.teststatic.TestStatic" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jonas.teststatic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.MainTestThread" />
-      <item itemvalue="Application.HelloWorld" />
-      <item itemvalue="Application.TestStatic" />
-      <item itemvalue="Application.HelloWorldJonas" />
-      <item itemvalue="Application.TestEnum" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestEnum" />
-        <item itemvalue="Application.HelloWorldJonas" />
-        <item itemvalue="Application.TestStatic" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.MainTestThread" />
+        <item itemvalue="Application.MainDrawDemo" />
+        <item itemvalue="Application.testWrapper" />
       </list>
     </recent_temporary>
   </component>
@@ -163,76 +105,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="383597bf-bcad-4bb0-962c-f3edc2e34ec3" name="Default" comment="" />
-      <created>1524773623765</created>
+      <created>1572990346409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1524773623765</updated>
-      <workItem from="1568233875122" duration="1274000" />
-      <workItem from="1568409960328" duration="5712000" />
-      <workItem from="1568492092737" duration="7971000" />
+      <updated>1572990346409</updated>
     </task>
-    <task id="LOCAL-00001" summary="First commited files.">
-      <created>1524776251784</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1524776251784</updated>
-    </task>
-    <task id="LOCAL-00002" summary="More files to be commited.">
-      <created>1524777744355</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1524777744355</updated>
-    </task>
-    <task id="LOCAL-00003" summary="More files for test.">
-      <created>1524869527596</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1524869527596</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Some updates!">
-      <created>1525004654301</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1525004654302</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Some updates!">
-      <created>1525004797335</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1525004797335</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Commits after cleaning!">
-      <created>1525007130059</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1525007130059</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Commits after cleaning!">
-      <created>1525034457591</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1525034457592</updated>
-    </task>
-    <task id="LOCAL-00008" summary="HelloWorld and MainTestClassLevels added.">
-      <created>1529619717987</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1529619717987</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -247,13 +125,15 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="First commited files." />
-    <MESSAGE value="More files to be commited." />
-    <MESSAGE value="More files for test." />
-    <MESSAGE value="Some updates!" />
-    <MESSAGE value="Commits after cleaning!" />
-    <MESSAGE value="HelloWorld and MainTestClassLevels added." />
-    <option name="LAST_COMMIT_MESSAGE" value="HelloWorld and MainTestClassLevels added." />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jonas/guiFirst/Pen.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
