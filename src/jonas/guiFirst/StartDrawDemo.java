@@ -13,6 +13,7 @@ public class StartDrawDemo {
     private JButton drawTriangleButton;
     private JButton clearButton;
     private JButton closeDrawWindow;
+    private JButton snakeButton;
 
     private DrawDemo drawDemo = null;
 
@@ -45,6 +46,13 @@ public class StartDrawDemo {
                     drawDemo.closeFrame();
                     drawDemo = null;
                 }
+            }
+        });
+
+        snakeButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Snake.main(new String[0]);
             }
         });
     }

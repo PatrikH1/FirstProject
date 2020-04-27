@@ -2,29 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383597bf-bcad-4bb0-962c-f3edc2e34ec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/FirstProject_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jonas/guiFirst/MainDrawDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jonas/wrapper/testWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/C_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jonas/guiFirst/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patrik/test/NumberClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FirstProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patrik/testMap/MainTestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patrik/testMap/MainTestMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patrik/testTemplate/MainTestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patrik/testTemplate/MainTestTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patrik/testTemplate/SomeValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patrik/testTemplate/SomeValues.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -33,33 +38,77 @@
   </component>
   <component name="ProjectId" id="1TDKAaYPq8E33y5oTTS7tANbgQk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="473" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="739" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaFX/javafx-sdk-11.0.2/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="patrik.test" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="game" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jonas.guiFirst" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Patrik\Git\FirstProject\src\game" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.StartDrawDemo">
-    <configuration name="MainDrawDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jonas.guiFirst.MainDrawDemo" />
+    <configuration name="HelloWorldJonas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jonas.testhelloworld.HelloWorldJonas" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jonas.guiFirst.*" />
+          <option name="PATTERN" value="jonas.testhelloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTestTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patrik.testTemplate.MainTestTemplate" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patrik.testTemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Snake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="game.Snake" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jonas.wrapper.testWrapper" />
+    <configuration name="TestStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jonas.teststatic.TestStatic" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jonas.wrapper.*" />
+          <option name="PATTERN" value="jonas.teststatic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,10 +142,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patrik.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="patrik.test" />
+      <option name="MAIN_CLASS_NAME" value="patrik.test.NumberClassTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StartDrawDemo" />
+      <item itemvalue="Application.Snake" />
+      <item itemvalue="Application.HelloWorldJonas" />
+      <item itemvalue="Application.TestStatic" />
+      <item itemvalue="Application.MainTestTemplate" />
+      <item itemvalue="JUnit.NumberClassTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainDrawDemo" />
-        <item itemvalue="Application.testWrapper" />
+        <item itemvalue="Application.Snake" />
+        <item itemvalue="Application.MainTestTemplate" />
+        <item itemvalue="JUnit.NumberClassTest" />
+        <item itemvalue="Application.TestStatic" />
+        <item itemvalue="Application.HelloWorldJonas" />
       </list>
     </recent_temporary>
   </component>
@@ -117,13 +192,42 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1588011860689">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588011860689" />
+    <state x="2586" y="261" key="FileChooserDialogImpl" timestamp="1588011248192">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2586" y="261" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588011248192" />
+    <state width="1877" height="539" key="GridCell.Tab.0.bottom" timestamp="1588012593727">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="539" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588012593727" />
+    <state width="1877" height="539" key="GridCell.Tab.0.center" timestamp="1588012593726">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="539" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588012593726" />
+    <state width="1877" height="539" key="GridCell.Tab.0.left" timestamp="1588012593726">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="539" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588012593726" />
+    <state width="1877" height="539" key="GridCell.Tab.0.right" timestamp="1588012593726">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="539" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588012593726" />
+    <state x="2360" y="94" key="SettingsEditor" timestamp="1588011271973">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2360" y="94" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588011271973" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
