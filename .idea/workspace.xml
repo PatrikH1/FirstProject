@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383597bf-bcad-4bb0-962c-f3edc2e34ec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/C_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jonas/guiFirst/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patrik/test/NumberClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FirstProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jonas/guiFirst/StartDrawDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patrik/testTemplate/MainTestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patrik/testTemplate/MainTestTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patrik/testTemplate/SomeValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patrik/testTemplate/SomeValues.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +64,7 @@
       <recent name="C:\Patrik\Git\FirstProject\src\game" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartDrawDemo">
+  <component name="RunManager" selected="Application.Snake">
     <configuration name="HelloWorldJonas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jonas.testhelloworld.HelloWorldJonas" />
       <module name="FirstProject" />
@@ -208,22 +196,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2586" y="261" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588011248192" />
-    <state width="1877" height="539" key="GridCell.Tab.0.bottom" timestamp="1588012593727">
+    <state width="1877" height="245" key="GridCell.Tab.0.bottom" timestamp="1588022228314">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="539" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588012593727" />
-    <state width="1877" height="539" key="GridCell.Tab.0.center" timestamp="1588012593726">
+    <state width="1877" height="245" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588022228314" />
+    <state width="1877" height="245" key="GridCell.Tab.0.center" timestamp="1588022228314">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="539" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588012593726" />
-    <state width="1877" height="539" key="GridCell.Tab.0.left" timestamp="1588012593726">
+    <state width="1877" height="245" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588022228314" />
+    <state width="1877" height="245" key="GridCell.Tab.0.left" timestamp="1588022228313">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="539" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588012593726" />
-    <state width="1877" height="539" key="GridCell.Tab.0.right" timestamp="1588012593726">
+    <state width="1877" height="245" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588022228313" />
+    <state width="1877" height="245" key="GridCell.Tab.0.right" timestamp="1588022228314">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="539" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588012593726" />
+    <state width="1877" height="245" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588022228314" />
     <state x="2360" y="94" key="SettingsEditor" timestamp="1588011271973">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
